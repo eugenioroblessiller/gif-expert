@@ -8,7 +8,7 @@ export function AddCategory({ setCategory }: AddCategoryProps) {
   const [inputValue, setInputValue] = useState("");
 
   const onInputChange = (event: any) => {
-    setInputValue(event.target.value);
+    setInputValue(event.target.value); 
   };
 
   const handleSubmit = (e: any) => {
